@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "text": "Shopping",
+      "day": "Feb 6th at 1:30pm",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "Doctors Appointment",
+      "day": "Feb 5th at 2:30pm",
+      "reminder": false,
+      "id": 4
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "category": "technology",
+      "title": "Hello react",
+      "content": "Learn typescript with MUI",
+      "image": "https://1.bp.blogspot.com/-hN0NCoAmEDY/X8z1OcRjXmI/AAAAAAAAlc0/hHqbHzqOPhIABiVomzpYacPeEufV816QQCNcBGAsYHQ/s0/hinh-nen-may-cuc-dep.jpg"
+    },
+    {
+      "title": "Tìm hiểu về HTML",
+      "category": "technology",
+      "content": "Chào các bạn,\n\nLời đầu tiên mình xin chúc các bạn một năm mới an khang thịnh vượng,Chào các bạn,\n\nLời đầu tiên mình xin chúc các bạn một năm mới an khang thịnh vượng,Chào các bạn,\n\nLời đầu tiên mình xin chúc các bạn một năm mới an khang thịnh vượng, ",
+      "image": "https://files.fullstack.edu.vn/f8-prod/blog_posts/2389/6207dfa3e3e7d.png",
+      "id": "2"
+    },
+    {
+      "title": "aaaa",
+      "category": "technology",
+      "content": "bbbbb",
+      "image": "https://media.laodong.vn/uploaded/ctvkhampha/2016_09_25/an9_awgq.jpg",
+      "id": "3"
+    },
+    {
+      "title": "blog 1",
+      "category": "technology",
+      "content": "Learn react ",
+      "image": "https://bloganh.net/wp-content/uploads/2021/03/chup-anh-dep-anh-sang-min.jpg",
+      "id": "4"
+    },
+    {
+      "title": "blog 2",
+      "category": "technology",
+      "content": "aaaaaaaaaaaaaaaaaa",
+      "image": "https://dotobjyajpegd.cloudfront.net/photo/5d7d0d042cdde3461f969267_m",
+      "id": "5"
+    },
+    {
+      "category": "Front-end",
+      "title": " Cấu trúc cơ bản trong HTML",
+      "content": "Trắc hẳn ai cũng biết một trang web thì không thể nào thiếu đi HTML và HTML làm nên cấu trúc của một trang web, như bài viết các bạn đang đọc bài viết này thì cũng được viết bằng html.\n\ncơ bản của html\n\nhôm nay mình xin giới thiệu sơ cho mọi người về cấu trúc cơ bản của một trang HTML cơ bản nhá.\n\nHTML là gì ???\n\nHTML là chữ viết tắt của cụm từ Hyper Text Markup Language ( Ngôn ngữ đánh dấu siêu văn bản) được sử dụng để tạo một trang web, trên một website có thể sẽ chứa nhiều trang và mỗi trang được quy ra là một tài liệu HTML. HTML là một trong những ngôn ngữ quan trọng trong lĩnh vực thiết kế website. HTML đã trở thành một chuẩn mực của Internet do tổ chức World Wide Web Consortium (W3C) duy trì.",
+      "image": "https://files.fullstack.edu.vn/f8-prod/blog_posts/1637/61b174eac43f3.jpg",
+      "id": "ZuwCGQY"
+    }
+  ]
+}
