@@ -15,39 +15,11 @@
   ],
   "blogs": [
     {
-      "id": "1",
+      "title": "Tìm hiểu về HTML 1 edit test lan 6",
       "category": "technology",
-      "title": "Hello react",
-      "content": "Learn typescript with MUI",
-      "image": "https://1.bp.blogspot.com/-hN0NCoAmEDY/X8z1OcRjXmI/AAAAAAAAlc0/hHqbHzqOPhIABiVomzpYacPeEufV816QQCNcBGAsYHQ/s0/hinh-nen-may-cuc-dep.jpg"
-    },
-    {
-      "title": "Tìm hiểu về HTML",
-      "category": "technology",
-      "content": "Chào các bạn,\n\nLời đầu tiên mình xin chúc các bạn một năm mới an khang thịnh vượng,Chào các bạn,\n\nLời đầu tiên mình xin chúc các bạn một năm mới an khang thịnh vượng,Chào các bạn,\n\nLời đầu tiên mình xin chúc các bạn một năm mới an khang thịnh vượng, ",
+      "content": "Chào các bạn,\n\nLời đầu tiên mình xin chúc các bạn một năm mới an khang thịnh vượng,Chào các bạn,\n\nLời đầu tiên mình xin chúc các bạn một năm mới an khang thịnh vượng,Chào các bạn,\n\nLời đầu tiên mình xin chúc các bạn một năm mới an khang thịnh vượng, update",
       "image": "https://files.fullstack.edu.vn/f8-prod/blog_posts/2389/6207dfa3e3e7d.png",
       "id": "2"
-    },
-    {
-      "title": "aaaa",
-      "category": "technology",
-      "content": "bbbbb",
-      "image": "https://media.laodong.vn/uploaded/ctvkhampha/2016_09_25/an9_awgq.jpg",
-      "id": "3"
-    },
-    {
-      "title": "blog 1",
-      "category": "technology",
-      "content": "Learn react ",
-      "image": "https://bloganh.net/wp-content/uploads/2021/03/chup-anh-dep-anh-sang-min.jpg",
-      "id": "4"
-    },
-    {
-      "title": "blog 2",
-      "category": "technology",
-      "content": "aaaaaaaaaaaaaaaaaa",
-      "image": "https://dotobjyajpegd.cloudfront.net/photo/5d7d0d042cdde3461f969267_m",
-      "id": "5"
     },
     {
       "category": "Front-end",

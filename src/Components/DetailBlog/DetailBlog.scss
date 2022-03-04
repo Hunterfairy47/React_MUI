@@ -2,6 +2,8 @@
   flex: 9;
 
   &__wrapper {
+    display: flex;
+    flex-direction: column;
   }
 
   &__img {
@@ -15,6 +17,19 @@
     text-align: center;
     margin: 10px;
     font-size: 40px;
+
+    &--input {
+      text-align: center;
+      margin: 10px;
+      font-size: 40px;
+      border: none;
+      border-bottom: 1px solid lightgrey;
+      color: gray;
+
+      &:focus {
+        outline: none;
+      }
+    }
   }
 
   &__desc {
@@ -27,6 +42,18 @@
       margin-left: 20px;
       font-size: 34px;
       font-weight: 600;
+    }
+
+    &--input {
+      border: none;
+      color: #666;
+      font-size: 22px;
+      line-height: 15px;
+      font-family: "Varela Round", Arial, Helvetica, sans-serif;
+
+      &:focus {
+        outline: none;
+      }
     }
   }
 }
