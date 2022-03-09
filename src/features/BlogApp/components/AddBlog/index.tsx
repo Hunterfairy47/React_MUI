@@ -65,22 +65,6 @@ const AddBlog = ({ onAdd }: AddBlogProps) => {
             />
           )}
         />
-        {/* <input
-          type="text"
-          value={category}
-          {...register("category")}
-          onChange={(e) => setCategory(e.target.value)}
-        />
-        <Typography
-          sx={{
-            color: "red",
-            display: "inline",
-            fontWeight: "bold",
-          }}
-        >
-          {errors.category?.message}
-        </Typography>
-        <label>Category</label> */}
       </div>
       <div className="mui-textfield mui-textfield--float-label">
         <Controller

@@ -1,23 +1,22 @@
 import Task from "../Task";
 
-type ITasks = {
-  id: number;
+export type ITask= {
+  id: string;
   text: string;
   day: string;
   reminder: boolean;
 };
 
-type Props = {
-  tasks: ITasks[];
-  onDelete: (id: number) => Promise<void>;
-  onToggle: (id: number) => Promise<void>;
+type TasksProps = {
+  tasks: ITask[];
+  onDelete: (id: string) => Promise<void>;
+  onToggle: (id: string) => Promise<void>;
 };
-const Tasks = ({ tasks, onDelete, onToggle }: Props) => {
-  console.log(tasks);
-
+const Tasks = ({ tasks, onDelete, onToggle }: TasksProps) => {
   return (
     <>
       {tasks.map((task, index) => (
+        
         <Task key={index} task={task} onDelete={onDelete} onToggle={onToggle} />
       ))}
     </>

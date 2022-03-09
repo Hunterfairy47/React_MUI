@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import { Box, Button, Container, Typography } from "@material-ui/core";
+import { AppBar, Toolbar } from "@mui/material";
+import { Box, Button, Container, Typography } from "@mui/material";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 
 function Header(props: any) {

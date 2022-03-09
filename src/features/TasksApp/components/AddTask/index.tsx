@@ -1,23 +1,31 @@
 import React from "react";
 import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { addTaskAction } from "../../../../redux/actions";
+import { v4 as uuidv4 } from "uuid";
 
-type AddTaskProps = {
-  onAdd: (task: {}) => Promise<void>;
-};
-const AddTask = ({ onAdd }: AddTaskProps) => {
+const AddTask = () => {
   const [text, setText] = useState("");
   const [day, setDay] = useState("");
   const [reminder, setReminder] = useState<boolean>(false);
 
+  const dispatch = useDispatch();
+
   const onSubmit: React.FormEventHandler<HTMLFormElement> = (e) => {
     e.preventDefault();
-
+    dispatch(
+      addTaskAction({
+        id: uuidv4(),
+        text,
+        day,
+        reminder,
+      })
+    );
     if (!text) {
       alert("Please add task");
       return;
     }
 
-    onAdd({ text, day, reminder });
     setText("");
     setDay("");
     setReminder(false);

@@ -2,10 +2,10 @@ import { Button } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { AiOutlineEdit, AiOutlineDelete } from "react-icons/ai";
 import { useLocation, useNavigate } from "react-router-dom";
-import { IBlogs } from "../../pages/BlogApp";
 import UpdateOutlinedIcon from "@mui/icons-material/UpdateOutlined";
 import { TextareaAutosize } from "@mui/base";
 import "./DetailBlog.scss";
+import { IBlogs } from "../../pages/Main";
 
 type SingleBlogProps = {
   singleBlog: IBlogs;

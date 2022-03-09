@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./SingleBlog.scss";
-import DetailBlog from "../../Components/DetailBlog";
 import { useParams } from "react-router-dom";
-import { IBlogs } from "../BlogApp";
+import { IBlogs } from "../Main";
+import DetailBlog from "../../components/DetailBlog";
 
 function SingleBlog() {
   const { blogid } = useParams();

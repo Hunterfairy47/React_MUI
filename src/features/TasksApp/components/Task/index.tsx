@@ -2,7 +2,7 @@ import React from "react";
 import { FaTimes } from "react-icons/fa";
 
 type ITasks = {
-  id: number;
+  id: string;
   text: string;
   day: string;
   reminder: boolean;
@@ -10,8 +10,8 @@ type ITasks = {
 
 type Props = {
   task: ITasks;
-  onDelete: (id: number) => Promise<void>;
-  onToggle: (id: number) => Promise<void>;
+  onDelete: (id: string) => Promise<void>;
+  onToggle: (id: string) => Promise<void>;
 };
 const Task = ({ task, onDelete, onToggle }: Props) => {
   return (

@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../../../../Components/Button";
 import "./HeaderBlogs.scss";
 
 type HeaderBlogsProps = {

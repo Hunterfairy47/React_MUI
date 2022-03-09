@@ -3,7 +3,7 @@
     {
       "text": "Shopping",
       "day": "Feb 6th at 1:30pm",
-      "reminder": true,
+      "reminder": false,
       "id": 3
     },
     {
@@ -11,6 +11,18 @@
       "day": "Feb 5th at 2:30pm",
       "reminder": false,
       "id": 4
+    },
+    {
+      "text": "do homework",
+      "day": "",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "text": "aaa",
+      "day": "aaa",
+      "reminder": true,
+      "id": 6
     }
   ],
   "blogs": [
@@ -20,13 +32,6 @@
       "content": "Chào các bạn,\n\nLời đầu tiên mình xin chúc các bạn một năm mới an khang thịnh vượng,Chào các bạn,\n\nLời đầu tiên mình xin chúc các bạn một năm mới an khang thịnh vượng,Chào các bạn,\n\nLời đầu tiên mình xin chúc các bạn một năm mới an khang thịnh vượng, update",
       "image": "https://files.fullstack.edu.vn/f8-prod/blog_posts/2389/6207dfa3e3e7d.png",
       "id": "2"
-    },
-    {
-      "category": "Front-end",
-      "title": " Cấu trúc cơ bản trong HTML",
-      "content": "Trắc hẳn ai cũng biết một trang web thì không thể nào thiếu đi HTML và HTML làm nên cấu trúc của một trang web, như bài viết các bạn đang đọc bài viết này thì cũng được viết bằng html.\n\ncơ bản của html \n\nhôm nay mình xin giới thiệu sơ cho mọi người về cấu trúc cơ bản của một trang HTML cơ bản nhá.\n\nHTML là gì ???\n\nHTML là chữ viết tắt của cụm từ Hyper Text Markup Language ( Ngôn ngữ đánh dấu siêu văn bản) được sử dụng để tạo một trang web, trên một website có thể sẽ chứa nhiều trang và mỗi trang được quy ra là một tài liệu HTML. HTML là một trong những ngôn ngữ quan trọng trong lĩnh vực thiết kế website. HTML đã trở thành một chuẩn mực của Internet do tổ chức World Wide Web Consortium (W3C) duy trì. ",
-      "image": "https://files.fullstack.edu.vn/f8-prod/blog_posts/1637/61b174eac43f3.jpg",
-      "id": "ZuwCGQY"
     },
     {
       "category": "orther",
@@ -41,27 +46,6 @@
       "content": "Hôm nay chúng ta sẽ cùng nhau tìm hiểu cách routing trong reactjs qua thư viện react-router-dom. Hy vọng được thảo luận cùng anh em f8 đang học reactjs. Không để mọi người chờ lâu, bắt đầu nào!\n\nTại sao phải cần tìm hiểu về routing.\n\nKhi chúng ta truy cập 1 trang web. Nhập đường dẫn url sẽ load(render) ra các trang(Component) tương tứng. Để làm được điều này ta cần quản lý routing trong ứng dụng web của chúng ta.",
       "image": "data:image/png;base64,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",
       "id": "kmzzCCH"
-    },
-    {
-      "category": "Technology",
-      "title": "Blog 1",
-      "content": "testtesttesttesttesttesttesttesttest",
-      "image": "https://cuuduongthancong.com/ggdimg/--de-thi-toan-2020-chuan-so-31.pdf/--de-thi-toan-2020-chuan-so-31.pdf-0.jpg",
-      "id": "iCK71ed"
-    },
-    {
-      "category": "aaaaa",
-      "title": "aaaaaaaaaa",
-      "content": "aaaaaaaaaaaaaaaaaa",
-      "image": "https://cuuduongthancong.com/ggdimg/--de-thi-toan-2020-chuan-so-31.pdf/--de-thi-toan-2020-chuan-so-31.pdf-0.jpg",
-      "id": "WGLDFuZ"
-    },
-    {
-      "category": "Technology",
-      "title": "test",
-      "content": "testaaaaaaaaaaa",
-      "image": "https://media-cdn.laodong.vn/Storage/NewsPortal/2020/4/3/795648/Vat-Li-1.jpg",
-      "id": "TBbKEKU"
     }
   ]
 }

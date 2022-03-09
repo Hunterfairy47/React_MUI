@@ -1,9 +1,9 @@
 import { Grid } from "@mui/material";
 import { useEffect, useState } from "react";
-import Blogs from "../../Components/Blogs";
-import AddBlog from "../../Components/AddBlog";
-import HeaderBlogs from "../../Components/HeaderBlogs";
-import { Outlet, useNavigate } from "react-router-dom";
+import AddBlog from "../../components/AddBlog";
+import { useNavigate } from "react-router-dom";
+import HeaderBlogs from "../../components/HeaderBlogs";
+import Blogs from "../../components/Blogs";
 
 export type IBlogs = {
   id: number;
@@ -73,7 +73,6 @@ function BlogApp() {
             {showAddBlog && <AddBlog onAdd={addBlog} />}
 
             <Blogs blogs={blogs} onClick={detailBlog} />
-            {/* <Outlet/> */}
           </Grid>
           <Grid item xs={0} sm={1} />
         </Grid>
